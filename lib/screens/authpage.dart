@@ -106,7 +106,7 @@ class _AuthPageState extends State<AuthPage>{
     void _buttonAction(){
       _email = _emailController.text;
       _password = _passwordController.text;
-
+      // print("Email: ${_email} and password: ${_password}");
       _emailController.clear();
       _passwordController.clear();
     }
